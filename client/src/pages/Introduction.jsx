@@ -1,4 +1,9 @@
 const Introduction = () => {
+    return (
+        <div className="page-container"> 
+            Introduction
+        </div>
+    )
 
 }
 
