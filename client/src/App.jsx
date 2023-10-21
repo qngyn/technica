@@ -1,13 +1,28 @@
-import { useState } from 'react'
 import './App.css'
+import { useRoutes } from 'react-router-dom'
+import Introduction from './pages/Introduction'
+import Home from './pages/Home'
+import Lesson from './pages/Lesson'
 
 function App() {
-  const [count, setCount] = useState(0)
+  let element = useRoutes([
+    {
+      path: '/',
+      element: <Home />
+    },
+    {
+      path: '/introduction',
+      element: <Introduction />
+    },
+    {
+      path: '/mainpage',
+      element: <Lesson />
+    }
+  ])
 
   return (
     <div className="App">
-
-        
+      {element}
     </div>
   )
 }
