@@ -3,10 +3,12 @@
   line-height: 1.5;
   font-weight: 400;
   height: 100%;
+  color: black;
 
   color-scheme: light dark;
-  color: rgba(245, 241, 241, 0.932);
-  background-color: #FAF9F6;
+  background-image: url("assets/background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
   margin: 0;
 
@@ -99,60 +101,4 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
-
-#myBtn {
-  display: none; /* Hidden by default */
-  position: fixed; /* Fixed/sticky position */
-  bottom: 20px; /* Place the button at the bottom of the page */
-  right: 30px; /* Place the button 30px from the right */
-  z-index: 99; /* Make sure it does not overlap */
-  border: none; /* Remove borders */
-  outline: none; /* Remove outline */
-  background-color: red; /* Set a background color */
-  color: white; /* Text color */
-  cursor: pointer; /* Add a mouse pointer on hover */
-  padding: 15px; /* Some padding */
-  border-radius: 10px; /* Rounded corners */
-  font-size: 18px; /* Increase font size */
-}
-
-#myBtn:hover {
-  background-color: #555; /* Add a dark-grey background on hover */
-}
-
-/*--------------*/
-/* HOME PAGE */
-/*--------------*/
-.page-container {
-  width: 100vw;
-  height: 100vh;
-  overflow: hidden;  /* To prevent any scrolling */
-  background-image: url('./assets/background.png');  /* Replace with your image path */
-  background-size: cover;  /* scales the image to cover the div */
-  background-repeat: no-repeat;  /* prevents the image from repeating */
-  background-position: center center;  /* centers the image */
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  /* Centers content vertically */
-  align-items: center;  /* Centers content horizontally */
-  margin: 0;
-}
-
-.headliner-content {
-  color: #FE347E;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-}
-
-footer {
-    bottom: 0;
-    width: 100% !important;
-    padding: 1% 2%;
-    font-size: 0.8rem;
-    border-top: solid #FE347E 3px;
-}
-
-.card-container{
-  
 }
