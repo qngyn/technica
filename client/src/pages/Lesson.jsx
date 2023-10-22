@@ -1,6 +1,9 @@
 const Lesson = () => {
     return (
-        <div>
+
+        <div classeName="">
+
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
         </div>
     )
