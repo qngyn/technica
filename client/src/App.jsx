@@ -6,6 +6,8 @@ import Lesson from './pages/Lesson'
 import Lesson1 from './pages/Lesson1'
 import Lesson2 from './pages/Lesson2'
 import Stats from './pages/Stats'
+import Lesson3 from './pages/Lesson3'
+
 
 function App() {
   let element = useRoutes([
@@ -18,7 +20,7 @@ function App() {
       element: <Introduction />
     },
     {
-      path: '/Lesson',
+      path: '/lesson',
       element: <Lesson />
     }, 
     {
@@ -28,6 +30,10 @@ function App() {
     {
       path: '/lesson2',
       element: <Lesson2 />
+    },
+    {
+      path: '/lesson3',
+      element: <Lesson3 />
     },
     {
       path: '/stats',

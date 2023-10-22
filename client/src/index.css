@@ -6,9 +6,9 @@
   color: black;
 
   color-scheme: light dark;
-  background-image: url("assets/background.png");
-  background-size: cover;
-  background-repeat: no-repeat;
+  color: black;
+  background-color: #FAF9F6;
+
   overflow: hidden;
   margin: 0;
 
@@ -19,14 +19,14 @@
   -webkit-text-size-adjust: 100%;
 }
 
-a {
+/* a {
   font-weight: 500;
   color: #646cff;
   text-decoration: inherit;
 }
 a:hover {
   color: #535bf2;
-}
+} */
 
 body {
   margin: 0;
@@ -58,7 +58,7 @@ main{
 }
 
 h1 {
-  font-size: 3.2em;
+  font-size: 2.5em;
   line-height: 1.1;
 }
 
@@ -76,13 +76,7 @@ button {
   right: 30px;
   margin: 1em;
 }
-button:hover {
-  border-color: aqua;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
+
 
 /* .boxed {
   border-width: 5px;
@@ -95,10 +89,126 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
-  a:hover {
+  /* a:hover {
     color: #747bff;
-  }
+  } */
   button {
     background-color: #f9f9f9;
   }
+}
+
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*--------------*/
+/* HOME PAGE */
+/*--------------*/
+.page-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;  /* To prevent any scrolling */
+  background-image: url('./assets/background.svg');  /* Replace with your image path */
+  background-size: cover;  /* scales the image to cover the div */
+  background-repeat: no-repeat;  /* prevents the image from repeating */
+  background-position: center center;  /* centers the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Centers content vertically */
+  align-items: center;  /* Centers content horizontally */
+  margin: 0;
+}
+
+.headliner-content {
+  color: #FE347E;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+footer {
+    bottom: 0;
+    width: 100% !important;
+    padding: 1% 2%;
+    font-size: 0.8rem;
+    border-top: solid #FE347E 3px;
+}
+
+/* .card-container{
+
+} */
+
+.lesson-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 600;
+  font-size: 1.2em;
+}
+
+.info-nav-content {
+  padding: 2rem;
+}
+
+.nav-header{
+  font-weight: 600;
+  font-size: 23px;
+  color: #FE347E;
+  margin-bottom: 1.5rem;
+}
+
+.inactive-tab {
+  color: rgba(254, 52, 126, 0.4);
+}
+
+.active-tab {
+  color: rgba(254, 52, 126, 1);
+}
+
+.body-header {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding-right: 1.5em;
+}
+
+.body-body {
+  padding: 3em;
+  display: flex;
+  text-align: left;
+  margin: 1em;
+}
+
+.container-headliner {
+  color: #FE347E;
+  text-shadow: 1px 1px 2px grey;
+}
+
+.headliner-container {
+  padding-bottom: 2em;
+}
+
+button {
+  width: 12em;
+  padding: 1em 2em;
+  margin: 2em;
+  font-weight: 700;
+}
+
+.lesson-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 5em;
+  margin: 0 5em;
+}
+
+.lesson-link {
+  color: rgba(254, 52, 126, 0.5) !important;
+  text-decoration: none;
+}
+
+.lesson-link:hover {
+  color: rgba(254, 52, 126, 1) !important;
+  text-decoration: none;
 }
