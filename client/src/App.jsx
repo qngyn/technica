@@ -3,6 +3,7 @@ import { useRoutes } from 'react-router-dom'
 import Introduction from './pages/Introduction'
 import Home from './pages/Home'
 import Lesson from './pages/Lesson'
+import Lesson1 from './pages/Lesson1'
 
 function App() {
   let element = useRoutes([
@@ -17,6 +18,10 @@ function App() {
     {
       path: '/mainpage',
       element: <Lesson />
+    }, 
+    {
+      path: '/lesson1',
+      element: <Lesson1 />
     }
   ])
 

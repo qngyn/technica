@@ -5,8 +5,8 @@ const Introduction = () => {
         return (
             <Card question={card.question} answer={card.answer} />
         )
-    
     })
+
     return (
         <div className="container">
             <div className="headliner-container">

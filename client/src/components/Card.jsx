@@ -7,7 +7,7 @@ const Card = (props) => {
             <div className="card-header" onClick={() => setIsOpen(!isOpen)}>
                 {question} <span>{isOpen ? '-' : '+'}</span>
             </div>
-            {isOpen && <div className="faq-answer">{answer}</div>}
+            {isOpen && <div className="faq-answer">{ answer }</div>}
         </div>
     )
 }

@@ -1,9 +1,12 @@
+import Button from "../components/Button";
 const Lesson = () => {
     return (
-        <div>
+        <div className="container">
+            <div className="headliner-container">
+                LESSONS
+            </div>
             <div className="">
-
-                    <button onClick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                <Button />
             </div>
         </div>
     )
