@@ -28,7 +28,7 @@ const Lesson2 = () => {
                     Contraception Options
                 </div>
                 </nav>
-                {selectedTab === "tewaching-about-condoms" && (
+                {selectedTab === "condoms" && (
                     <div className="body-body">
                         <div className="body-header">
                             The important things to teach about condoms
@@ -52,7 +52,7 @@ const Lesson2 = () => {
                         </div>
                     </div>
                 )}
-                {selectedTab === "sex-info" && (
+                {selectedTab === "contraception" && (
                     <div className="body-body">
                         <div className="body-header">
                             The important things to teach about contraception
