@@ -7,7 +7,7 @@ const Home = () => {
                 <h1 className="headliner-content"> Destigmatize Sex Ed </h1>
 
             <div className="homepage-button">
-                <Button to="/lesson"> LET'S LEARN </Button>
+                <Button to="/Lesson"> LET'S LEARN </Button>
                 <Button to="/introduction"> INTRODUCTION </Button>
             </div>
         </div>

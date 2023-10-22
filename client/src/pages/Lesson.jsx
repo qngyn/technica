@@ -1,18 +1,19 @@
 import Button from "../components/Button";
 const Lesson = () => {
     return (
-        <div className="container">
+        <div className="">
+         <div className="page-container">
+    
             <div className="headliner-container">
-                LESSONS
+                <h1>LESSONS</h1>
             </div>
-            <div className="">
-                <Button />
+            <div className="lesson-button">
+                <Button to="/Lesson1"> PUBERTY & REPRODUCTION </Button>
+                <Button to="/Lesson2"> INTRODUCTION </Button>
             </div>
-
-        <div classeName="">
-
         </div>
-        </div>
+     </div>
+
     )
 }
 
