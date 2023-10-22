@@ -7,9 +7,9 @@ const Lesson1 = () => {
 
     return (
         <div className="container">
-            <div className="Class 1">
-                <h1>LESSON 1: PUBERTY & REPRODUCTIVE SYSTEM</h1>
-                <h3> What students need to know </h3>
+            <div className="container-header">
+                <h1 className="container-headliner"> PUBERTY & REPRODUCTIVE SYSTEM</h1>
+                <h3 className="container-subheadliner"> What students need to know </h3>
             </div>
             <div className="Puberty & Reproduction System">
                 <nav className="lesson-nav">
@@ -68,16 +68,15 @@ const Lesson1 = () => {
                 )}
                 {selectedTab === "sex-info" && (
                     <div className="body-body">
-
-                    <div className="body-header">
-                         What IS and IS NOT sexual intercourse?
-                    </div>
-                    <div className="body-content">
-                        <p>
-                        Some poeple have different opinions about what qualifies as sex. It's critical that when we talk about people having or not having sex, students know what wwe mean. This is important becuase of what it means for pregnancy an infection. 
-                         For example, people have different thoughts about anal sex. Even though it doesn't cause pregnancy, it can be a way to spread STIs and HIV. 
-                        </p>
-                    </div>
+                        <div className="body-header">
+                            What IS and IS NOT sexual intercourse?
+                        </div>
+                        <div className="body-content">
+                            <p>
+                            Some poeple have different opinions about what qualifies as sex. It's critical that when we talk about people having or not having sex, students know what wwe mean. This is important becuase of what it means for pregnancy an infection. 
+                            For example, people have different thoughts about anal sex. Even though it doesn't cause pregnancy, it can be a way to spread STIs and HIV. 
+                            </p>
+                        </div>
 
                 </div>
                 )}

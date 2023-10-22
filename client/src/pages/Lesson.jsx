@@ -3,11 +3,12 @@ const Lesson = () => {
     return (
         <div className="container">
             <div className="headliner-container">
-                <h1>
+                <h1 className="container-headliner">
                     LESSONS
                 </h1>
+                <h3> Essential lesson to better understanding about yourself </h3>
             </div>
-            <div className="">
+            <div className="lesson-container">
                 <LessonCard
                     title="Puberty & the Reproductive System"
                     description="This unit covers learning pointers about teaching about puberty and reproduction.."

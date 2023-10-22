@@ -9,8 +9,8 @@ const Lesson2 = () => {
         <div className="container">
 
             <div className="headliner-container">
-                <h1>LESSON 2: PUBERTY & REPRODUCTIVE SYSTEM</h1>
-                <h3> What students need to know </h3>
+                <h1 className="container-headliner">PUBERTY & REPRODUCTIVE SYSTEM</h1>
+                <h3 className="container-subheadliner"> What students need to know </h3>
             </div>
             <div className="content-container">
                 <nav className="lesson-nav">

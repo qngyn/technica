@@ -4,7 +4,7 @@ const LessonCard = ({children, ...props}) => {
     return (
         <div className="lesson-card">
             <h3 className="lesson-name"> 
-                <Link to={link}> {title}  </Link>
+                <Link to={link} className="lesson-link"> {title}  </Link>
             </h3>
             <h5 className="lesson-description"> {description} </h5>
         </div>

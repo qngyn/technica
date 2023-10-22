@@ -9,8 +9,8 @@ const Lesson3 = () => {
     return (
         <div className="container">
             <div className="headliner-container">
-                <h1>LESSON 3: HIV & STIs </h1>
-                <h3> Making Sense of Being Safe </h3>
+                <h1 className="container-headliner">HIV & STIs </h1>
+                <h3 className="container-subheadliner"> Making Sense of Being Safe </h3>
             </div>
             <div className="content-container">
                 <nav className="lesson-nav">
