@@ -10,7 +10,7 @@ const Introduction = () => {
     return (
         <div className="container">
             <div className="headliner-container">
-                <h1 className="headliner"> INTRODUCTION TO SEX EDUCATION </h1>
+                <h1 className="container-headliner"> INTRODUCTION TO SEX EDUCATION </h1>
             </div>
             <div className="content-container">
                 {cards}

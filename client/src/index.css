@@ -8,8 +8,6 @@
   color-scheme: light dark;
   color: black;
   background-color: #FAF9F6;
-
-  overflow: hidden;
   margin: 0;
 
   font-synthesis: none;
@@ -211,4 +209,22 @@ button {
 .lesson-link:hover {
   color: rgba(254, 52, 126, 1) !important;
   text-decoration: none;
+}
+
+.stat-container{
+  overflow-y: scroll;
+}
+
+.stat-body {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 0 5em;
+}
+
+.card-container {
+  text-align: left;
+  padding: 1em;
+  margin: 1em;
+  
 }
