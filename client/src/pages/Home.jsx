@@ -4,8 +4,11 @@ const Home = () => {
         <div className="">
             <div className="">
             <div class = "boxed">
-                 <h1>App Name</h1>
-                 <p>created by: </p>
+                 <h1>Destigmatize Sex Ed</h1>
+                 <p>created by: Akriti Nepal, 
+                    Alondra Rosas, Felicity Le,
+                    Quynh Nguyen
+                 </p>
             </div>
             <div className="" >
                 <Button to="/lesson"> LET'S LEARN </Button>
