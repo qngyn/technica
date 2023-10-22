@@ -22,7 +22,9 @@ function App() {
 
   return (
     <div className="App">
-      {element}
+      <main>
+        {element}
+      </main>
     </div>
   )
 }

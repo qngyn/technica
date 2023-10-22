@@ -6,9 +6,7 @@
 
   color-scheme: light dark;
   color: rgba(245, 241, 241, 0.932);
-  background-image: url("websitewall.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #FAF9F6;
   overflow: hidden;
   margin: 0;
 
@@ -69,11 +67,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #ff1493;
+  background-color: #FE347E;
   cursor: pointer;
   transition: border-color 0.25s;
   top: 10px; 
   right: 30px;
+  margin: 1em;
 }
 button:hover {
   border-color: aqua;
@@ -83,11 +82,11 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.boxed {
+/* .boxed {
   border-width: 5px;
   border-style: solid;
   border-color: white;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -120,4 +119,36 @@ button:focus-visible {
 
 #myBtn:hover {
   background-color: #555; /* Add a dark-grey background on hover */
+}
+
+/*--------------*/
+/* HOME PAGE */
+/*--------------*/
+.page-container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;  /* To prevent any scrolling */
+  background-image: url('./assets/background.png');  /* Replace with your image path */
+  background-size: cover;  /* scales the image to cover the div */
+  background-repeat: no-repeat;  /* prevents the image from repeating */
+  background-position: center center;  /* centers the image */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  /* Centers content vertically */
+  align-items: center;  /* Centers content horizontally */
+  margin: 0;
+}
+
+.headliner-content {
+  color: #FE347E;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+footer {
+    bottom: 0;
+    width: 100% !important;
+    padding: 1% 2%;
+    font-size: 0.8rem;
+    border-top: solid #FE347E 3px;
 }

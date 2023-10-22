@@ -1,23 +1,14 @@
 import Button from "../components/Button";
 const Home = () => {
     return (
-        <div className="">
-            <div className="">
-            <div class = "boxed">
-                 <h1>Destigmatize Sex Ed</h1>
-                 <p>created by: Akriti Nepal, 
-                    Alondra Rosas, Felicity Le,
-                    Quynh Nguyen
-                 </p>
-            </div>
-            <div className="" >
+        <div className="page-container">
+                <h1 className="headliner-content"> Destigmatize Sex Ed </h1>
+
+            <div className="homepage-button">
                 <Button to="/lesson"> LET'S LEARN </Button>
                 <Button to="/introduction"> INTRODUCTION </Button>
             </div>
-  </div>
-  </div>
-
-
+        </div>
     )
 }
 
