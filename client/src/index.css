@@ -3,12 +3,10 @@
   line-height: 1.5;
   font-weight: 400;
   height: 100%;
-  color: black;
 
   color-scheme: light dark;
-  color: black;
-  background-color: #FAF9F6;
-
+  color: #FE347E;
+  background-color: white;
   overflow: hidden;
   margin: 0;
 
@@ -58,7 +56,7 @@ main{
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3.2em;
   line-height: 1.1;
 }
 
@@ -155,34 +153,6 @@ footer {
     border-top: solid #FE347E 3px;
 }
 
-/* .card-container{
-
-} */
-
-.lesson-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: 600;
-  font-size: 1.2em;
-}
-
-.info-nav-content {
-  padding: 2rem;
-}
-
-.nav-header{
-  font-weight: 600;
-  font-size: 23px;
-  color: #FE347E;
-  margin-bottom: 1.5rem;
-}
-
-.inactive-tab {
-  color: rgba(254, 52, 126, 0.4);
-}
-
-.active-tab {
-  color: rgba(254, 52, 126, 1);
+.card-container{
+  
 }
