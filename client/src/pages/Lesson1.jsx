@@ -2,7 +2,6 @@ import { useState } from "react";
 const Lesson1 = () => {
     const [selectedTab, setSelectedTab] = useState("puberty-basics");
     const handleTabClick = (tab) => {
-        
         setSelectedTab(tab);
     };
 
@@ -16,16 +15,19 @@ const Lesson1 = () => {
                 <nav className="lesson-nav">
                 <div
                     onClick={() => handleTabClick("puberty-basics")}
+                    className={`nav-header info-nav-content ${selectedTab === "puberty-basics" ? "active-tab" : "inactive-tab"}`}
                 >
                     Puberty Basics
                 </div>
                 <div
                     onClick={() => handleTabClick("pregnancy-basics")}
+                    className={`nav-header info-nav-content ${selectedTab === "pregnancy-basics" ? "active-tab" : "inactive-tab"}`}
                 >
                     Pregnancy Basics
                 </div>
                 <div
                     onClick={() => handleTabClick("sex-info")}
+                    className={`nav-header info-nav-content ${selectedTab === "sex-info" ? "active-tab" : "inactive-tab"}`}
                 >
                     What is sex?
                 </div>

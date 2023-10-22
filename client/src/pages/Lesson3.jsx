@@ -15,20 +15,22 @@ const Lesson3 = () => {
             <div className="content-container">
                 <nav className="lesson-nav">
                 <div
-                    onClick={() => handleTabClick("condoms")}
+                    onClick={() => handleTabClick("sti-basics")}
+                    className={`nav-header info-nav-content ${selectedTab === "sti-basics" ? "active-tab" : "inactive-tab"}`}
                 >
-                    Things about Condoms
+                    STI Basics
                 </div>
                 <div
-                    onClick={() => handleTabClick("contraception")}
+                    onClick={() => handleTabClick("hiv-basics")}
+                    className={`nav-header info-nav-content ${selectedTab === "hiv-basics" ? "active-tab" : "inactive-tab"}`}
                 >
-                    Contraception Options
+                    HIV & AIDS
                 </div>
                 </nav>
-                {selectedTab === "puberty-basics" && (
+                {selectedTab === "sti-basics" && (
                     <div className="body-body">
                         <div className="body-header">
-                            The important things to teach about condoms
+                            STI Basics: What you need to know about STIs
                         </div>
                         <div className="body-content">
                             <div className="body-content-div">
@@ -46,10 +48,10 @@ const Lesson3 = () => {
                         </div>
                     </div>
                 )}
-                {selectedTab === "sex-info" && (
+                {selectedTab === "hiv-basics" && (
                     <div className="body-body">
                         <div className="body-header">
-                            The important things to teach about contraception
+                            Making sense of HIV and AIDS
                         </div>
                         <div className="body-content">
                             <div className="body-content-div">
