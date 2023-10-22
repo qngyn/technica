@@ -232,11 +232,3 @@ button {
   margin: 1em;
   
 }
-
-.container {
-  overflow-y: scroll;
-  background-image: url('./assets/background.svg');  /* Replace with your image path */
-  background-size: cover;  /* scales the image to cover the div */
-  background-position: center center;  /* centers the image */
-  width: 100vw;
-}
