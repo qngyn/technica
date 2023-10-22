@@ -2,10 +2,15 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  height: 100%;
 
   color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  color: rgba(245, 241, 241, 0.932);
+  background-image: url("websitewall.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin: 0;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -29,6 +34,13 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 h1 {
@@ -43,12 +55,16 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: transparent;
   cursor: pointer;
   transition: border-color 0.25s;
+  top: 10px; 
+  right: 30px;
+
+
 }
 button:hover {
-  border-color: #646cff;
+  border-color: aqua;
 }
 button:focus,
 button:focus-visible {
